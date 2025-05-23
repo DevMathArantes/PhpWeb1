@@ -1,0 +1,21 @@
+{
+    "name": "matheus/projeto-busca-curso",
+    "description": "Projeto prático do curso de php para web da alura",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Matheus\\ProjetoBuscaCurso\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "math.arantes",
+            "email": "matheusoficial1411@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "symfony/dom-crawler": "^7.2",
+        "symfony/css-selector": "^7.2"
+    }
+}

@@ -1,0 +1,18 @@
+1- Link download do composer: https://getcomposer.org/
+
+    Após instalar o setup para seu SO, faça os seguintes comandos para iniciar projetos:
+
+    : composer --version (conferir se o composer está instalado)
+    : composer init (iniciando)
+    : X/Y (X= nome do autor, Y= nome do projeto)
+    : confirma sem alterar por 2 vezes (neste curso ao menos)
+    : library (informa o tipo de projeto)
+    : confirma sem alterar por 3 vezes (neste curso ao menos)
+    : no (não vamos definir as dependências por enquanto)
+    : confirma sem alterar (neste curso ao menos)
+    : yes (confirma a criação do projeto)
+    : composer require guzzlehttp/guzzle (instala o pacote guzzle)
+    : composer require symfony/dom-crawler (instala outro pacote chamado crawler)
+    : composer require symfony/css-selector (instala outro pacote chamado css-selector)
+
+2- Link do packagist: https://packagist.org/
