@@ -15,4 +15,45 @@
     : composer require symfony/dom-crawler (instala outro pacote chamado crawler)
     : composer require symfony/css-selector (instala outro pacote chamado css-selector)
 
+    Lembrete: você vai precisar de uma permissão SSL
+
 2- Link do packagist: https://packagist.org/
+
+3- Configurando autoload composer:
+
+    Sintaxe:
+        "autoload": {
+            "psr-4": {
+                "X\\Y":"/Z"
+            }
+        }
+    Este faz com que o composer reconheça a pasta Z sempre que o namespace X\\Y for chamado (recomendado X=nome autor e 
+    Y = nome projeto)
+
+    Após alterar o autoload na pasta composer.json, utilize o comando: composer dumpautoload para atualizar o autoload
+
+    - O parâmetro classmap dentro do autoload, serve para mostrar ao composer mais classes, veja:
+    
+    "classmap": [
+            "./X/Y"
+    ],
+
+    Uma classe N poderá ser encontrada dentro do arquivo Y que está dentro de X que se encontra no diretório
+    atual de acordo com "./"
+
+    - O parâmetro files serve para importar um arquivo e utilizar suas funções por exemplo, veja:
+
+    "files": [
+        "./X"
+    ],
+
+    Importou o arquivo X dentro do diretório atual
+
+4- Utilize o comando composer require --dev phpunit/phpunit ^9.5 (depois verifique a versão com 
+vendor\bin\phpunit --version) para instalar o phpUnit (serve para realizar testes). Observação:
+
+    "require-dev": {
+    }
+
+    Tudo o que fica dentro deste atributo, não vai para a produção e serve apenas para ambiente de 
+    desenvolvimento (ele mostra que os arquivos não devem ser baixados)
