@@ -57,3 +57,44 @@ vendor\bin\phpunit --version) para instalar o phpUnit (serve para realizar teste
 
     Tudo o que fica dentro deste atributo, não vai para a produção e serve apenas para ambiente de 
     desenvolvimento (ele mostra que os arquivos não devem ser baixados)
+
+5- Todas as ferramentas vindas do composer require ficam em vendor\bin\
+
+6- Ferramenta que ajuda a padronizar o código: composer require --dev squizlabs/php_codesniffer=*
+
+7- Ferramenta que verifica erros antes de executar: composer require --dev phan/phan
+
+8- A categoria "scripts" serve para criar apelidos para scripts de terminal, veja:
+
+    "scripts": {
+        "X" : "Y"
+    }
+
+    Ao chamar o comando composer X, o script Y será executado
+
+9- Para executar mais de um script com apenas um comando, utilize:
+
+    "X" : [
+        "Y1",
+        "Y2",
+        ...
+        "Yn"
+    ]
+
+    O comando composer X servirá para executar os comandos Y1, Y2 .. Yn respectivamente
+
+10- O comando composer list serve para revelar uma lista de comandos do composer
+
+11- A categoria scripts-descriptions serve para adicionar uma descrição ao nosso comando criado manualmente, veja:
+
+    "scripts-descriptions": {
+        "X" : "Z"
+    }
+
+    A descrição Z foi atribuída ao comando X, verifique em composer list
+
+12- A categoria "post-update-cmd" serve para executar comandos automaticamente após o comando composer update
+
+    obs: Ao se referir a apelidos de comandos, utilize @X para se referir a um apelido X
+
+13- Lista de eventos fornecidos pelo composer: https://getcomposer.org/doc/articles/scripts.md
