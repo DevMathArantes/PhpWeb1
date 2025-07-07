@@ -106,3 +106,7 @@ vendor\bin\phpunit --version) para instalar o phpUnit (serve para realizar teste
     apenas para correção de bugs, correções, etc...)
 
 15- Operadores de versionamento composer: https://getcomposer.org/doc/articles/versions.md
+
+16- no website https://packagist.org/, faça login com o github e veja seus pacotes em my packages, faça um novo package 
+em submit com o link do repositório do git com um projeto com composer e depois poderá baixar o pacote com o composer 
+require fornecido (virá com tudo o que foi configurado no composer, exceto as dependências de dev)

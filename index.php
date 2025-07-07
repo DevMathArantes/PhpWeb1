@@ -1,4 +1,9 @@
+#!/usr/bin/env php
+
+
 <?php
+
+    // #! serve para indicar qual programa irá ler o arquivo 
 
     //Necessário para que o autoload do composer.json funcione corretamente
     require 'vendor/autoload.php';

@@ -3,7 +3,7 @@
         'name' => 'matheus14112003/projeto-busca-curso',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '893edaa21e0faee18c1ea547887be4a4c79275b0',
+        'reference' => 'eb77b564892a4704cf68dbf8b0de61ac58101c03',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -103,7 +103,7 @@
         'matheus14112003/projeto-busca-curso' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '893edaa21e0faee18c1ea547887be4a4c79275b0',
+            'reference' => 'eb77b564892a4704cf68dbf8b0de61ac58101c03',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
