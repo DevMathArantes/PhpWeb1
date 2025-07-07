@@ -98,3 +98,11 @@ vendor\bin\phpunit --version) para instalar o phpUnit (serve para realizar teste
     obs: Ao se referir a apelidos de comandos, utilize @X para se referir a um apelido X
 
 13- Lista de eventos fornecidos pelo composer: https://getcomposer.org/doc/articles/scripts.md
+
+14- Utilize git tag -a v1.0.0 para nomear a versão do commit para v1.0.0
+
+    obs: por boas praticas, vX.Y.Z significa: X= versão principal (muda quando existe quebras de compatibilidade de uma
+    versão para a outra), Y= versão menor (muda quando existem mudanças mas não quebram o funcionamento) e Z= patch (
+    apenas para correção de bugs, correções, etc...)
+
+15- Operadores de versionamento composer: https://getcomposer.org/doc/articles/versions.md
