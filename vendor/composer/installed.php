@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
-        'name' => 'matheus/projeto-busca-curso',
+        'name' => 'matheus14112003/projeto-busca-curso',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '1ba8b0dd599838bbd2ea3685619238768ade3a5b',
+        'reference' => '893edaa21e0faee18c1ea547887be4a4c79275b0',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -100,10 +100,10 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'matheus/projeto-busca-curso' => array(
+        'matheus14112003/projeto-busca-curso' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '1ba8b0dd599838bbd2ea3685619238768ade3a5b',
+            'reference' => '893edaa21e0faee18c1ea547887be4a4c79275b0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
