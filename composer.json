@@ -1,5 +1,5 @@
 {
-    "name": "matheus/projeto_busca_curso",
+    "name": "matheus_maf1411/projeto_busca_curso",
     "description": "Projeto prático do curso de php para web da alura, tem por objetivo retornar o html da página de cursos da alura.",
     "type": "library",
     "authors": [

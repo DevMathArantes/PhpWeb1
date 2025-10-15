@@ -1,0 +1,5 @@
+Para criar uma tag de nome de versão de repositório, utilize: vx.y.z
+
+x= Versão principal (muda quando houver quebra de compatibilidade)
+y= Versão menor (muda quando adicionar algo sem quebra de compatibilidade)
+z= Correções (muda quando há correção de bugs)
