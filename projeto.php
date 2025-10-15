@@ -13,7 +13,7 @@
     $cursos = $busca->buscar('/cursos-online-programacao/php', 'span.card-curso__nome');
 
     foreach ($cursos as $curso) {
-        echo "Curso: " . $curso . PHP_EOL;
+        echo "-Curso: " . $curso . PHP_EOL;
     }
 
     //Testando autoload na linha abaixo (retire o commentário)
