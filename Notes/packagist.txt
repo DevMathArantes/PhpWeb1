@@ -30,3 +30,8 @@
 3- Atualizando componentes
 
     Utilize o comando: composer update para atualizar todos os componentes
+
+4- Postando o projeto no packagist:
+
+    No site do packgist vá em submit, preencha o campo com o link do repositório git do pacote, após isso confirme o
+    pacote, após isso estará pronto.
