@@ -42,5 +42,6 @@
         "listar" : "Lista todos os comandos do composer",
         "atualizar" : "Atualiza as dependências do projeto",
         "testarProjeto" : "Atualiza as dependências e executa o projeto"
-    }
+    },
+    "license": "GPL-3.0"
 }
